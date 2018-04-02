@@ -12,6 +12,7 @@
 		2D6AD0ED2072D70F009C309F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D6AD0EB2072D70F009C309F /* Main.storyboard */; };
 		2D6AD0EF2072D70F009C309F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D6AD0EE2072D70F009C309F /* Assets.xcassets */; };
 		2D6AD0F22072D70F009C309F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D6AD0F02072D70F009C309F /* LaunchScreen.storyboard */; };
+		FEE7ECF47F899AF478FB704E /* Pods_Slider_Image_Scrollview.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D628F843EC37140123F40A3 /* Pods_Slider_Image_Scrollview.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,11 @@
 		2D6AD0EE2072D70F009C309F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2D6AD0F12072D70F009C309F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2D6AD0F32072D70F009C309F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D6AD0FD2072E0DF009C309F /* gambar1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gambar1.png; sourceTree = "<group>"; };
+		2D6AD0FE2072E0E5009C309F /* gambar2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gambar2.jpg; sourceTree = "<group>"; };
+		3D628F843EC37140123F40A3 /* Pods_Slider_Image_Scrollview.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Slider_Image_Scrollview.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA93E86CB8330D2343FF7223 /* Pods-Slider Image Scrollview.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Slider Image Scrollview.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Slider Image Scrollview/Pods-Slider Image Scrollview.debug.xcconfig"; sourceTree = "<group>"; };
+		DA637630037CAC0F9FD189B4 /* Pods-Slider Image Scrollview.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Slider Image Scrollview.release.xcconfig"; path = "Pods/Target Support Files/Pods-Slider Image Scrollview/Pods-Slider Image Scrollview.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FEE7ECF47F899AF478FB704E /* Pods_Slider_Image_Scrollview.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +47,8 @@
 			children = (
 				2D6AD0E62072D70E009C309F /* Slider Image Scrollview */,
 				2D6AD0E52072D70E009C309F /* Products */,
+				F4ECD06FB3E850C39BD9BE8C /* Pods */,
+				97047006E2A2478F39D4BCC7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,7 +63,9 @@
 		2D6AD0E62072D70E009C309F /* Slider Image Scrollview */ = {
 			isa = PBXGroup;
 			children = (
+				2D6AD0FD2072E0DF009C309F /* gambar1.png */,
 				2D6AD0E72072D70E009C309F /* AppDelegate.swift */,
+				2D6AD0FE2072E0E5009C309F /* gambar2.jpg */,
 				2D6AD0E92072D70E009C309F /* ViewController.swift */,
 				2D6AD0EB2072D70F009C309F /* Main.storyboard */,
 				2D6AD0EE2072D70F009C309F /* Assets.xcassets */,
@@ -64,6 +75,23 @@
 			path = "Slider Image Scrollview";
 			sourceTree = "<group>";
 		};
+		97047006E2A2478F39D4BCC7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3D628F843EC37140123F40A3 /* Pods_Slider_Image_Scrollview.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F4ECD06FB3E850C39BD9BE8C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AA93E86CB8330D2343FF7223 /* Pods-Slider Image Scrollview.debug.xcconfig */,
+				DA637630037CAC0F9FD189B4 /* Pods-Slider Image Scrollview.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +99,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D6AD0F62072D70F009C309F /* Build configuration list for PBXNativeTarget "Slider Image Scrollview" */;
 			buildPhases = (
+				F907DB9CB5E2ACB8F5F674CB /* [CP] Check Pods Manifest.lock */,
 				2D6AD0E02072D70E009C309F /* Sources */,
 				2D6AD0E12072D70E009C309F /* Frameworks */,
 				2D6AD0E22072D70E009C309F /* Resources */,
+				B71890E43BE47253387EC548 /* [CP] Embed Pods Frameworks */,
+				C6B8CB8D8A2697D4E101A586 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -130,6 +161,72 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B71890E43BE47253387EC548 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Slider Image Scrollview/Pods-Slider Image Scrollview-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/ImageSlideshow/ImageSlideshow.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ImageSlideshow.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Slider Image Scrollview/Pods-Slider Image Scrollview-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C6B8CB8D8A2697D4E101A586 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/myfile",
+				"$(SRCROOT)/myfile",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Slider Image Scrollview/Pods-Slider Image Scrollview-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F907DB9CB5E2ACB8F5F674CB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Slider Image Scrollview-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2D6AD0E02072D70E009C309F /* Sources */ = {
@@ -272,6 +369,7 @@
 		};
 		2D6AD0F72072D70F009C309F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA93E86CB8330D2343FF7223 /* Pods-Slider Image Scrollview.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -287,6 +385,7 @@
 		};
 		2D6AD0F82072D70F009C309F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA637630037CAC0F9FD189B4 /* Pods-Slider Image Scrollview.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
